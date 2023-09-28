@@ -1,0 +1,25 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+}
+
+#title {
+  font-size: 25px;
+}
+
+.dot:hover {
+  fill: azure;
+}
+
+#legend {
+  justify-content: start;
+}
+
+#source {
+  align-self: flex-end;
+  margin-top: 1rem;
+}
